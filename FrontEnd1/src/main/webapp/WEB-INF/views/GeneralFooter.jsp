@@ -15,6 +15,8 @@ footer {
 </style>
 </head>
 <body>
-<footer>Registered &reg; JC Laptops</footer>
+<footer>Registered &reg; JC Laptops
+<a href="facebook.com"><img src="resources/facebook.jpg" style="width:60px;height:60px;"></a>
+</footer>
 </body>
 </html>

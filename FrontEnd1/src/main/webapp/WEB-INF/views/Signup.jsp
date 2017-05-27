@@ -73,10 +73,7 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
-.active {
-    background-color: #4CAF50;
-}
-	</style>
+</style>
 <title>Customer Registeration</title>
 </head>
 
@@ -84,29 +81,24 @@ li a:hover:not(.active) {
 	<div class="container">
 	<header>
 	<div class="relative">
-	<img src="resources/Laptop_LogoIcon.jpeg" style="float:left;" />
+	<img src="resources/Laptop_LogoIcon.jpg" style="float:left;" />
 	</div>
 	<h1 align="center">JC Laptops</h1>
 	</header>
 	<ul>
-  	<li><a class="active" href="index">Home</a></li>
-  	<!-- <li><a href="#news">News</a></li> -->
+  	<li><a href="home">Home</a></li>
   	<li><a href="contact">Contact</a></li>
   	<li><a href="about">About Us</a></li>
 	</ul>
 	<br>
-	<h1 style="color:blue;">Customer Sign-Up Page:</h1>
-	<form>
+	<h1 style="color:blue;">Customer Sign-Up Page</h1>
+	<form action="registercustomer" method="post">
 	<br>
-		<table style="font-size:18px" align="center">
+		<table style="font-size:18px">
 		<col width="150"/>
 			<tr>
-				<td><label><b>First Name</b></label></td>
-	    		<td><input type="text" placeholder="Enter first name" name="fname" required></input></td>
-			</tr>
-			<tr>
-				<td><label><b>Last Name</b></label></td>
-    			<td><input type="text" placeholder="Enter last name" name="lname" required></input></td>
+				<td><label><b>Name</b></label></td>
+	    		<td><input type="text" placeholder="Enter the full-name" name="name" required></input></td>
 			</tr>
 			<tr>
 				<td><label><b>E-mail address</b></label></td>
@@ -114,31 +106,32 @@ li a:hover:not(.active) {
 			</tr>
 			<tr>
 				<td><label><b>Contact Number</b></label></td>
-    			<td><input type="number" placeholder="Enter mobile number" name="contact" required></input></td>
+    			<td><input type="text" placeholder="Enter mobile number" name="phno" required></input></td>
 			</tr>
 			<tr>
 				<td><label><b>Address</b></label></td>
     			<td><textarea rows="5" cols="22" placeholder="Enter address" name="addr"></textarea></td>
 			</tr>
     		<tr>
-    			<td><label><b>User-name</b></label></td>
-    			<td><input type="text" placeholder="Enter  user-name" name="uname" required></input></td>
-			</tr>
-    		<tr>
     			<td><label><b>Password</b></label></td>
-    			<td><input type="password" placeholder="Enter Password" name="password" required></input></td>
+    			<td><input type="password" placeholder="Enter Password" name="pwd" required></input></td>
 			</tr>
 			<tr>
 				<td><label><b>Confirm Password</b></label></td>
     			<td><input type="password" placeholder="Confirm Password" name="cpwd" required></input></td>
 			</tr>
+			<tr>
+			<td />
+			<td><input type="submit" value="Register"/></td>
+			</tr>
 		</table>
+		
 </form>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit">Register</button>
-<br><br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br><br><br><br>
 <footer>Registered &reg; JC Laptops</footer>
 </div>
 </body>

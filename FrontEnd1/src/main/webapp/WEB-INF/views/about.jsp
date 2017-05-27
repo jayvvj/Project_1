@@ -26,6 +26,12 @@ footer {
     clear: left;
     text-align: left;
 }
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
 div.relative {
     position: relative;
     left: 0px;
@@ -43,21 +49,22 @@ a{
 b {
 	font-size: 120%;
 	align: center;
-	background-color: #D3D3D3;
-	font-color= #000000;
-	color: black;
+	font-color: black;
+	background-color:#ffffff;
 }
 ul {
-    list-style-type: none;
+    list-style-type: circle;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffffff;
 }
 li {
-    float: left;
+    float: top;
+ 
 }
 li a {
+	style:"list-style-type:circle";
     display: block;
     color: white;
     text-align: center;
@@ -66,6 +73,10 @@ li a {
 }
 li a:hover:not(.active) {
     background-color: #111;
+}
+ol {
+	type: '1';
+	display: block;
 }
 .active {
     background-color: #4CAF50;
@@ -80,48 +91,54 @@ li a:hover:not(.active) {
 	</div>
 	<h1 align="center">JC Laptops</h1>
 </header>
-<ul>
-  <li><a class="active" href="index">Home</a></li>
-  <li><a href="contact">Contact</a></li>
-  <li><a href="about">About Us</a></li>
+<ul style="list-style-type: none; margin:0; padding:0; overflow:hidden; background-color:#333;">
+  <li style="float: left;"><a href="home">Home</a></li>
+  <li style="float: left;"><a href="contact">Contact</a></li>
+  <li style="float: left;"><a class="active" href="about">About Us</a></li>
 </ul>
 <br>
-<b>Sell across India</b>
+&nbsp;<u><b>Pay with JC-Laptops</b></u>
+<ol>
+<li>Drive traffic to your website by advertising on JC-Laptops</li>
+<li>Increase conversions on your website</li>
+<li>Use JC-Laptops Easy Ship to deliver orders to your customers</li>
+</ol>
 <br>
-* Sold to crores of Indian customers.<br>
-* We pick and ship products for you.<br>
-* You get quick payments into your account.<br><br>
-
-
-<b>Sell locally in your city</b><br>
-* Get started in 2 minutes.<br>
-* Fast and easy listing form.<br>
-* Doorstep pick-up, packing and delivery.<br><br>
-
-
-<b>Pay with JC-Laptops</b><br>
-* Drive traffic to your website by advertising on JC-Laptops.<br>
-* Increase conversions on your website.<br>
-* Use JC-Laptops Easy Ship to deliver orders to your customers.<br><br>
-
-
-<b>Sell globally</b><br>
-* Make in India and Sell Globally.<br>
-* Reap the benefits of selling in new countries.<br>
-* Grow your business in the US.<br><br>
-
-
-<b>Advertise on "JC-Laptops"</b><br>
-* Promote the products you sell on "JCLaptops.in".<br>
-* Use keyword targeted ads.<br>
-* Pay only when your ad is clicked.<br><br>
-
-
-<b>Make money on your site</b><br>
-* Become an JC-Laptops Affiliate: its free and easy to join.<br>
-* Choose from over a million products to advertise to your customers.<br>
-* Get up to 12% in advertising fees.<br><br>
-
+&nbsp;<u><b>Sell globally</b></u>
+<ol>
+<li>Make in India and Sell Globally</li>
+<li>Reap the benefits of selling in new countries</li>
+<li>Grow your business in the US</li>
+</ol>
+<br>
+&nbsp;<u><b>Advertise on JC-Laptops</b></u>
+<ol>
+<li>Promote the products you sell on jclaptops.in</li>
+<li>Use keyword targeted ads</li>
+<li>Pay only when your ad is clicked</li>
+</ol>
+<br>
+&nbsp;<u><b>Make money on your site</b></u>
+<ol>
+<li>Become an JC-Laptops Affiliate: its free and easy to join</li>
+<li>Choose from over a million products to advertise to your customers</li>
+<li>Get up to 12% in advertising fees</li>
+</ol>
+<br>
+&nbsp;<u><b>Sell across India</b></u>
+<ol>
+<li>Sold to crores of Indian customers</li>
+<li>We ship products for you</li>
+<li>You get quick payments into your account</li>
+</ol>
+<br>
+&nbsp;<u><b>Sell locally in your city</b></u>
+<ol>
+<li>Get started in a few minutes</li>
+<li>Fast and easy listing form</li>
+<li>Doorstep delivery</li>
+</ol>
+<br>
 <footer>Registered &reg; JC Laptops</footer>
 </div>
 </body>

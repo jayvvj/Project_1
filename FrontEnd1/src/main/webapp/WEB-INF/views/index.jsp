@@ -108,7 +108,7 @@ li a:hover:not(.active) {
 	</table>
 </header>
 <ul>
-  <li><a class="active" href="index">Home</a></li>
+  <li><a class="active" href="home">Home</a></li>
   <li><a href="contact">Contact</a></li>
   <li><a href="about">About Us</a></li>
 </ul>
@@ -125,7 +125,13 @@ li a:hover:not(.active) {
 	<tr><td height="20px" align="left"><b>Lenovo</b></td><td height="20px" width="40px" align="right"><a href="Lenovo"><img src="resources/Lenovo_Logo.jpg"></a></td></tr>
 </table>
 </nav>
-<footer>Registered &reg; JC Laptops</footer>
+<footer><div style="display:inline;">Registered &reg; JC Laptops</div>
+<div style="width:100%;text-align:right;display:inline;">
+<a href="https://www.facebook.com/"><img src="resources/facebook.jpg" align="right" style="width:20px;height:20px;display:inline;"></a>
+&nbsp;
+<a href="https://twitter.com/"><img src="resources/twitter.jpg" align="right" style="width:20px;height:20px;display:inline;"></a>
+</div>
+</footer>
 </div>
 </body>
 </html>

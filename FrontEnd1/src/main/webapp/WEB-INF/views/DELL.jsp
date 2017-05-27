@@ -97,7 +97,7 @@ li a:hover:not(.active) {
 	<h1 align="center">JC Laptops</h1>
 </header>
 <ul>
-  <li><a class="active" href="index">Home</a></li>
+  <li><a class="active" href="home">Home</a></li>
   <li><a href="contact">Contact</a></li>
   <li><a href="about">About Us</a></li>
 </ul>

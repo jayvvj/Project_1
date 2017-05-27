@@ -82,9 +82,6 @@ li a:hover:not(.active)
 	 {
     	background-color: #111;
 	 }
-.active {
-    	background-color: #4CAF50;
-		}
 </style>
 <title>Customer Log-In</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -100,12 +97,12 @@ li a:hover:not(.active)
 			<h1 align="center">JC Laptops</h1>
 		</header>
 		<ul>
-  			<li><a class="active" href="index">Home</a></li>
+  			<li><a href="home">Home</a></li>
   			<li><a href="contact">Contact</a></li>
   			<li><a href="about">About Us</a></li>
 		</ul>
 		<br>
-		<h1 style="color:blue;">Sign-In Page:</h1>
+		&nbsp;<h1 style="color:blue;">Sign-In Page:</h1>
 		<div>               			
 			<div class=" col-lg-4  col-md-4 col-sm-4 col-xs-4 noPadding"> 			    
 				<div class="row">					
